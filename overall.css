@@ -1,3 +1,18 @@
+.VPDoc {
+    padding-top: 10px !important;
+}
+
+.vp-doc th {
+    width: 20%;
+    padding: 8px 16px;
+    font-size: 0.875em !important
+}
+
+.vp-doc td {
+    padding: 8px 16px;
+    font-size: 0.875em !important
+}
+
 :root {
     --vp-home-hero-name-color: transparent;
     --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #bd34fe, #41d1ff);
