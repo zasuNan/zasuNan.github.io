@@ -1,1 +1,0 @@
-import{_ as t,o as e,c as a}from"./app.ceffe33e.js";const i=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"examples/button.md"}'),o={name:"examples/button.md"};function n(r,s,c,p,_,m){return e(),a("div")}const l=t(o,[["render",n]]);export{i as __pageData,l as default};
