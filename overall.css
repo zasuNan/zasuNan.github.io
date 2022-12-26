@@ -13,6 +13,45 @@
     font-size: 0.875em !important
 }
 
+/*  */
+button:enabled,
+[role='button']:enabled {
+    cursor: none;
+}
+
+/*  */
+code {
+    counter-reset: step;
+}
+
+code .line::before {
+    content: counter(step);
+    counter-increment: step;
+    width: 1.5rem;
+    padding-right: 0.5rem;
+    margin-right: 1rem;
+    display: inline-block;
+    text-align: right;
+    color: rgba(115, 138, 148, 0.4);
+    border-right: 1px solid currentColor;
+}
+
+.vp-doc div[class*='language-'] {
+    border-radius: 2px;
+    margin-bottom: 0px;
+}
+
+.vp-doc [class*='language-'] code {
+    padding: 0 15px;
+}
+
+html:not(.dark) {
+    /* --vp-c-text-dark-3: #ccc; */
+    --vp-code-block-bg: #fafafa;
+    /* --vp-code-line-highlight-color: rgba(238, 238, 238, 1); */
+}
+
+/*  */
 :root {
     --vp-home-hero-name-color: transparent;
     --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #bd34fe, #41d1ff);

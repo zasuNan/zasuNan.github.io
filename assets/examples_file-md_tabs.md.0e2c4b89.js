@@ -1,0 +1,1 @@
+import{_ as t,r as a,o as s,c as o,e as n}from"./app.49e42fe0.js";const b=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"examples/file-md/tabs.md"}'),r={name:"examples/file-md/tabs.md"};function c(p,m,_,l,d,i){const e=a("z-tabs");return s(),o("div",null,[n(e)])}const u=t(r,[["render",c]]);export{b as __pageData,u as default};
